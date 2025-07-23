@@ -26,15 +26,6 @@ This project simulates an **Online Course Management System** designed using **O
 | Inheritance    | `Student` and `Instructor` extend `User` |
 | Polymorphism   | Overridden method `viewCourses()` in subclasses |
 
-## 🛠 Class Overview
-
-- `User` – Base abstract class
-- `Student` – Enrolls in courses, uploads assignments, views grades
-- `Instructor` – Creates courses, adds assignments, grades submissions
-- `Course` – Holds students, assignments
-- `Assignment` – Has ID, title, and submissions
-- `Submission` – Stores content and grade
-
 ## 📚 Project Explanation
 
 This **Online Course Management System** is a mini OOP-based Java application that simulates core functionalities of an educational platform like Coursera or Udemy, focusing on core **Object-Oriented Programming principles**.
@@ -70,3 +61,12 @@ The project demonstrates how to model a **real-world system** (an e-learning pla
 - Apply **encapsulation** using private fields and public getters/setters.
 - Experience **real-world modeling** using object associations (1-to-many, many-to-1).
 - Practice clean OOP logic for future **interview prep** or **mini-project submissions**.
+  
+## 🛠 Class Overview
+
+- `User` – Base abstract class
+- `Student` – Enrolls in courses, uploads assignments, views grades
+- `Instructor` – Creates courses, adds assignments, grades submissions
+- `Course` – Holds students, assignments
+- `Assignment` – Has ID, title, and submissions
+- `Submission` – Stores content and grade
